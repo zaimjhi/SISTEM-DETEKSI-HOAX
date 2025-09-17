@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Detektor Hoax Timnas",
+  "version": "1.0",
+  "description": "Mendeteksi berita hoax tentang timnas sepakbola Indonesia.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:5000/"
+  ]
+}
